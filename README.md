@@ -1,4 +1,4 @@
-#LaravelPassportSkipClient
+# LaravelPassportSkipClient
 #### Laravel Middleware for Laravel Passport to allow requesting access token without client id and secret for password grant tokens
 
 ## Requirements
