@@ -1,0 +1,52 @@
+{
+    "name": "afzalh/laravel-passport-skip-client",
+    "description": "Laravel Middleware for Laravel Passport to allow requesting access token without client id and secret for password grant tokens",
+    "keywords": [
+        "laravel",
+        "passport",
+        "client",
+        "password grant"
+    ],
+    "homepage": "https://github.com/afzalh/laravel-passport-skip-client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Afzal Hossain",
+            "email": "afzal.csedu@gmail.com",
+            "homepage": "https://srizon.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "laravel/passport": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AfzalH\\LaravelPassportSkipClient\\": "src"
+        },
+        "files": [
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AfzalH\\LaravelPassportSkipClient\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+            ]
+        }
+    }
+}
